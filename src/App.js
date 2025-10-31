@@ -26,7 +26,7 @@ import Dashboard from "./Dashboard/Dashboard";
 function App() {
 
   axios.defaults.withCredentials = true;
-  const [showHeader, setShowHeader] = useState(false);
+  const [showHeader] = useState(false);
   useEffect(() => {
    function redirectToHome() {
      if (localStorage.getItem('auth_username') !== "") {

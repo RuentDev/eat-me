@@ -1,10 +1,8 @@
 import "./bootstrapcard.css";
-import { Link } from "react-router-dom";
 import { Button } from "..";
 import { COLORS, FONTS } from "../../constants";
 
 import useBootstrapCard from "./useBootstrapCard";
-import { useEffect } from "react";
 
 const BootstrapCard = ({
   productID,

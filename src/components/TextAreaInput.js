@@ -66,7 +66,6 @@ const TextAreaInput
                         value={textValue}
                         required={required}
                         maxLength={maxLength}
-                        placeholder={placeholder}
                     />
                 </div>
             <p className='text-danger'>{errorText}</p>

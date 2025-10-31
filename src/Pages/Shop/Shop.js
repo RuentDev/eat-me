@@ -24,7 +24,7 @@ const Shop = () => {
       dispatch(fetchProductRequestSuccess(res.data));
     };
     fetchProducts();
-  }, [dispatch]);
+  }, [dispatch, axios, fetchProductRequest, fetchProductRequestSuccess, fetchProductRequestError]);
 
   return (
     <div className="shop-page">

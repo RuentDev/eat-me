@@ -1,5 +1,5 @@
 import React from 'react'
-import { COLORS, FONTS, images } from '../constants'
+import { COLORS } from '../constants'
 
 
 

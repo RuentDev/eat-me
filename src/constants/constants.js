@@ -321,7 +321,7 @@ const chiefs = [
 
 
 
-export default {
+const constants = {
     menus,
     partnership,
     navMenu,
@@ -335,3 +335,5 @@ export default {
     sliderSlickImage,
     chiefs
 }
+
+export default constants

@@ -34,7 +34,7 @@ const defaultProductImages = "no-image-available.png";
 
 const donloadOurApp = "/images/download-our-app.png";
 
-export default {
+const images = {
   defaultProductImages,
   easy_to_use,
   best_courier,
@@ -68,3 +68,5 @@ export default {
   join_merchant,
   donloadOurApp,
 };
+
+export default images;

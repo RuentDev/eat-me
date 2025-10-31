@@ -15,6 +15,8 @@ const tempCartData = [
     },
 ]
 
-export default {
+const tempdata = {
     tempCartData,
 }
+
+export default tempdata

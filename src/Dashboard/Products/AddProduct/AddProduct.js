@@ -74,6 +74,7 @@ const AddProduct = () => {
       setProductImage(product.product_image);
       setFilePreview(`/product-uploads/${product.product_image}`);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [product]);
 
   return (

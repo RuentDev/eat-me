@@ -76,7 +76,9 @@ const testimonials = [
   },
 ];
 
-export default {
+const dummyData = {
   deliciousFood,
   testimonials,
 };
+
+export default dummyData;

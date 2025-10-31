@@ -35,7 +35,7 @@ const AllProducts = () => {
       dispatch(fetchProductRequestSuccess(res.data));
     };
     fetchProducts();
-  }, [dispatch]);
+  }, [dispatch, fetchProductRequest, fetchProductRequestSuccess, fetchProductRequestError]);
 
   return (
     <div className="allproducts">
