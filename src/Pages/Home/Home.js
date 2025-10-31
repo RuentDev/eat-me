@@ -1,5 +1,5 @@
 import "./home.css";
-import React, { useEffect } from "react";
+import React from "react";
 import {
   Button,
   IconButton,
@@ -9,40 +9,10 @@ import {
   FoodGallery,
   CustomizableBlogSection,
 } from "../../components";
-import { COLORS, constants, dummyData, FONTS } from "../../constants";
-import {
-  fetchProductRequest,
-  fetchProductRequestSuccess,
-  fetchProductRequestError,
-} from "../../Stores/Products/fetchProductAction";
-
-import { useDispatch, useSelector } from "react-redux";
-
-import axios from "axios";
 import { Link } from "react-router-dom";
+import { COLORS, constants, dummyData, FONTS } from "../../constants";
 
 const Home = () => {
-  const dispatch = useDispatch();
-  const allProducts = useSelector((state) => state.allProducts.products);
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      dispatch(fetchProductRequest());
-      const res = await axios
-        .get("http://localhost:3001/api/products")
-        .catch((err) => {
-          dispatch(fetchProductRequestError(err));
-        });
-      dispatch(fetchProductRequestSuccess(res.data));
-    };
-    fetchProducts();
-  }, [dispatch]);
-
-  useEffect(() => {
-    console.log();
-    // console.log(dummyData.deliciousFood.filter(item => item.category === 'special'))
-  }, []);
-
   return (
     <>
       {/* LandingSection */}

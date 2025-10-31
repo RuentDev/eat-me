@@ -1,6 +1,5 @@
 import "./cart.css";
 import IconButton from "../IconButton";
-import { useEffect } from "react";
 import useCart from "./useCart";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -42,7 +41,7 @@ const CartItem = ({
 };
 
 const CartModal = ({ cartData, prefix, suffix }) => {
-  const { getCartTotal } = useCart();
+  // const { getCartTotal } = useCart();
 
   return (
     <div className="cart-modal">
@@ -81,7 +80,7 @@ const CartModal = ({ cartData, prefix, suffix }) => {
 
       <div className="cart-bottom-content">
         <p className="total-price">
-          Total: {prefix} {getCartTotal()} {suffix}
+          {/* Total: {prefix} {getCartTotal()} {suffix} */}
         </p>
         <div className="cart-bottom-container">
           <IconButton
@@ -99,28 +98,7 @@ const CartModal = ({ cartData, prefix, suffix }) => {
 };
 
 const Cart = ({ prefix, suffix }) => {
-  const {
-    dispatch,
-    fetchCartItems,
-    fetchCartItemsError,
-    fetchCartItemsSuccess,
-    axios,
-    cartItems,
-  } = useCart();
-
-  useEffect(() => {
-    const fetchCartData = async () => {
-      dispatch(fetchCartItems());
-      const res = await axios
-        .get("http://localhost:3001/api/cartitems")
-        .catch((err) => {
-          dispatch(fetchCartItemsError(err));
-        });
-
-      dispatch(fetchCartItemsSuccess(res.data));
-    };
-    fetchCartData();
-  }, [dispatch]);
+  const { cartItems } = useCart();
 
   return (
     <div className="cart-icon-container">
