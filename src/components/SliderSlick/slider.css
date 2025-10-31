@@ -1,0 +1,34 @@
+@media only screen and (min-width: 768px) {
+  .slider-item {
+    overflow: hidden;
+    width: 100% !important;
+    padding: 2rem;
+    margin: auto;
+  }
+  .slider-item > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto !important;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .slick-track {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .slider-item {
+    overflow: hidden;
+    width: 100% !important;
+    padding: 3rem;
+  }
+  .slider-item > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

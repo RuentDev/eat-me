@@ -1,0 +1,85 @@
+export const SidebarData = [
+  {
+    id: 2,
+    title: "Dashboard",
+    option: "dashboard",
+    icon: <i className="fab fa-connectdevelop"></i>,
+    menu: [],
+    active: false,
+  },
+  {
+    id: 3,
+    title: "Orders",
+    option: "orders",
+    icon: <i className="fas fa-shopping-basket"></i>,
+    menu: [],
+    active: false,
+  },
+  {
+    id: 4,
+    title: "Product",
+    option: "all_products",
+    icon: <i className="fas fa-hamburger"></i>,
+    menu: [
+      {
+        id: 1,
+        title: "My Products",
+        option: "all_products",
+        icon: <i className="fas fa-hamburger"></i>,
+        active: false,
+      },
+      {
+        id: 2,
+        title: "Add Product",
+        option: "product_form",
+        icon: <i className="fas fa-plus-square"></i>,
+        active: false,
+      },
+    ],
+    active: false,
+  },
+  {
+    id: 5,
+    title: "Account",
+    icon: <i className="fas fa-user"></i>,
+    menu: [
+      {
+        id: 1,
+        title: "Add User",
+        option: "user_form",
+        icon: <i className="fas fa-user-plus"></i>,
+        active: false,
+      },
+    ],
+    active: false,
+  },
+  //   {
+  //     id: 6,
+  //     title: "Menus",
+  //     icon: <i class="fas fa-list"></i>,
+  //     menu: [
+  //       {
+  //         id: 1,
+  //         title: "Special",
+  //         option: "favorite",
+  //         icon: <i class="fas fa-heart"></i>,
+  //         active: false,
+  //       },
+  //       {
+  //         id: 2,
+  //         title: "Popular",
+  //         option: "popular",
+  //         icon: <i class="fas fa-fire"></i>,
+  //         active: false,
+  //       },
+  //       {
+  //         id: 2,
+  //         title: "New Arrival",
+  //         option: "new_arrival",
+  //         icon: <i class="fas fa-fire"></i>,
+  //         active: false,
+  //       },
+  //     ],
+  //     active: false,
+  //   },
+];

@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #ff6c44;
+    --transparentPrimray: rgba(227, 120, 75, 0.1);
+    --orange: #FFA133;
+    --lightOrange: #FFA133;
+    --lightOrange2: #FDDED4;
+    --lightOrange3: #FFD9AD;
+    --green: #27AE60;
+    --red: #FF1717;
+    --blue: #0064C0;
+    --darkBlue: #111A2C;
+    --darkGray: #525C67;
+    --darkGray2: #757D85;
+    --gray: #898B9A;
+    --gray2: #BBBDC1;
+    --gray3: #CFD0D7;
+    --lightGray1: #DDDDDD;
+    --lightGray2: #F5F5F8;
+    --white2: #FBFBFB;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --transparent: 'transparent',
+    --transparentBlack1: "rgba(0, 0, 0, 0.1)",
+    --transparentBlack7: "rgba(0, 0, 0, 0.7)";
+}
+
+.input-submit {
+  align-items: center;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: var(--lightGray1);
+}
+.input-submit:hover{
+    transform: scale(1.1);
+    color: var(--white);
+    transition: 200ms;
+}

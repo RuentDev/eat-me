@@ -1,0 +1,335 @@
+:root {
+    --primary-color: #E96A40;
+    --transparentPrimray: rgba(227, 120, 75, 0.1);
+    --orange: #FFA133;
+    --lightOrange: #FFA133;
+    --lightOrange2: #FDDED4;
+    --lightOrange3: #FFD9AD;
+    --green: #27AE60;
+    --red: #FF1717;
+    --blue: #0064C0;
+    --darkBlue: #111A2C;
+    --darkGray: #525C67;
+    --darkGray2: #757D85;
+    --gray: #898B9A;
+    --gray2: #BBBDC1;
+    --gray3: #CFD0D7;
+    --lightGray1: #DDDDDD;
+    --lightGray2: #F5F5F8;
+    --white2: #FBFBFB;
+    --white: #FFFFFF;
+    --black: #000000;
+    --transparent: 'transparent',
+    --transparentBlack1: "rgba(0, 0, 0, 0.1)",
+    --transparentBlack7: "rgba(0, 0, 0, 0.7)";
+  
+    --radius: 20px;
+    --padding: 1rem;
+  
+    /* font sizes */
+    --largeTitle: 5rem;
+  
+    --h1: 3.5rem;
+    --h2: 3rem;
+    --h3: 2.5rem;
+    --h4: 1.5rem;
+    --h5: 1.3rem;
+  
+    --body1: 3rem;
+    --body2: 2.5rem;
+    --body3: 2rem;
+    --body4: 1.5rem;
+    --body5: .9rem;
+  }
+  
+
+
+
+@media only screen and (min-width: 768px) {
+  .cart-icon-container {
+    position: relative;
+  }
+  .cart-icon {
+    cursor: pointer;
+  }
+
+  .item-number {
+    position: absolute;
+    top: -16px;
+    right: -7px;
+    background-color: red;
+    padding: 0.2rem 0.5rem;
+    border-radius: 25px;
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .cart-modal {
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    width: 360px;
+    max-height: 0;
+    /* opacity: 0; */
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  .cart-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 1rem;
+  }
+  .cart-modal-outer-container{
+    height: 250px;
+    width: 100%;
+  }
+
+
+  .no-cart-item-message{
+    width: 100%;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+  .cart-modal-container { 
+    overflow: auto;
+  }
+
+  .cart-item {
+    position: relative;
+    padding: .5rem;
+  }
+  
+  .cart-item-container {
+    border: 1px solid var(--orange);
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .cart-item-image-container {
+    overflow: hidden;
+    width: 35%;
+    height: 100%;
+    padding: 0.2rem;
+  }
+  .cart-item-image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .cart-item-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .item-price-quantity {
+    font-weight: 500;
+  }
+
+  .remove-item {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .cart-bottom-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightGray2);
+    border-top: 1px solid var(--darkGray) ;
+    padding-bottom: 1rem;
+  }
+
+  .total-price {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  .cart-bottom-container {
+    display: flex;
+  }
+
+
+ 
+
+
+  /* CSS ANIMATION*/
+
+  .cart-icon-container:hover .cart-modal{
+      max-height: 500px;
+      opacity: 1;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  .cart-icon-container {
+    position: relative;
+  }
+
+  .cart-icon {
+    cursor: pointer;
+  }
+
+  .item-number {
+    position: absolute;
+    top: -16px;
+    right: -7px;
+    background-color: red;
+    padding: 0.2rem 0.5rem;
+    border-radius: 25px;
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .cart-modal {
+    z-index: 100;
+    position: absolute;
+    right: -150px;
+    top: 30px;
+    width: 360px;
+    max-height: 0;
+    transition: all 0.5s ease-out;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  .arrow{
+    position: absolute;
+    top: -14px;
+    right: 40%;
+    height: 0;
+    border-top: 0;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid white;
+  }
+  .cart-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 1rem;
+  }
+  .cart-modal-outer-container{
+    height: 250px;
+    width: 100%;
+  }
+
+
+  .no-cart-item-message{
+    width: 100%;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+  .cart-modal-container { 
+    overflow: auto;
+  }
+
+  .cart-item {
+    position: relative;
+    padding: .5rem;
+  }
+  
+  .cart-item-container {
+    border: 1px solid var(--orange);
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .cart-item-image-container {
+    overflow: hidden;
+    width: 35%;
+    height: 100%;
+    padding: 0.2rem;
+  }
+  .cart-item-image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .cart-item-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .item-price-quantity {
+    font-weight: 500;
+  }
+
+  .remove-item {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .cart-bottom-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightGray2);
+    border-top: 1px solid var(--darkGray) ;
+    padding-bottom: 1rem;
+  }
+
+  .total-price {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  .cart-bottom-container {
+    display: flex;
+  }
+
+
+ 
+
+
+  /* CSS ANIMATION*/
+
+  .cart-icon-container:hover .cart-modal{
+      max-height: 500px;
+      opacity: 1;
+  }
+
+}

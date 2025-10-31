@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+@media only screen and (min-width: 1200px) {
+  .menu-card {
+    width: 100%;
+    min-height: 200px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    transition: all ease-in-out 700ms;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .menucard-image-container {
+    overflow: hidden;
+    height: 190px;
+    width: 150px;
+  }
+  .menucard-image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .menucard-content-container {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    transition: all ease-in-out 700ms;
+  }
+
+  .menucard-description {
+    padding-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .menucard-price-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .menucard-price-rating > .price {
+    color: red;
+    font-family: "Cookie", cursive;
+    font-size: 1.5rem;
+  }
+
+  /* CSS ANIMATION */
+  .menu-card:hover {
+    border: 1px red solid;
+  }
+  .menu-card:hover .menucard-content-container {
+    background-color: #f7f3f3;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .menu-card {
+    width: 100%;
+    min-height: 200px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    transition: all ease-in-out 700ms;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .menucard-image-container {
+    overflow: hidden;
+    height: 190px;
+    width: 150px;
+  }
+  .menucard-image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .menucard-content-container {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    transition: all ease-in-out 700ms;
+  }
+
+  .menucard-description {
+    padding-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .menucard-price-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .menucard-price-rating > .price {
+    color: red;
+    font-family: "Cookie", cursive;
+    font-size: 1.5rem;
+  }
+
+  /* CSS ANIMATION */
+  .menu-card:hover {
+    border: 1px red solid;
+  }
+  .menu-card:hover .menucard-content-container {
+    background-color: #f7f3f3;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-card {
+    width: 100%;
+    height: 200px;
+    padding-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 700ms;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .menucard-image-container {
+    overflow: hidden;
+    height: 130px;
+    width: 100px;
+  }
+  .menucard-image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .menucard-content-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out 700ms;
+    padding: 0 0 0 0.5rem;
+  }
+
+  .menucard-description {
+    padding-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .menucard-price-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .menucard-price-rating > .price {
+    color: red;
+    font-family: "Cookie", cursive;
+    font-size: 1.5rem;
+  }
+
+  /* CSS ANIMATION */
+  .menu-card:hover {
+    border: 1px red solid;
+  }
+  .menu-card:hover .menucard-content-container {
+    background-color: #f7f3f3;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu-card {
+    width: 100%;
+    height: 200px;
+    padding-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 700ms;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .menucard-image-container {
+    overflow: hidden;
+    height: 130px;
+    width: 100px;
+  }
+  .menucard-image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .menucard-content-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out 700ms;
+    padding: 0 0 0 0.5rem;
+  }
+
+  .menucard-description {
+    padding-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .menucard-price-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .menucard-price-rating > .price {
+    color: red;
+    font-family: "Cookie", cursive;
+    font-size: 1.5rem;
+  }
+
+  /* CSS ANIMATION */
+  .menu-card:hover {
+    border: 1px red solid;
+  }
+  .menu-card:hover .menucard-content-container {
+    background-color: #f7f3f3;
+  }
+}

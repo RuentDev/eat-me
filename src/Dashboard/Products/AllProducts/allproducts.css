@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #ff6c44;
+    --transparentPrimray: rgba(227, 120, 75, 0.1);
+    --orange: #FFA133;
+    --lightOrange: #FFA133;
+    --lightOrange2: #FDDED4;
+    --lightOrange3: #FFD9AD;
+    --green: #27AE60;
+    --red: #FF1717;
+    --blue: #0064C0;
+    --darkBlue: #111A2C;
+    --darkGray: #525C67;
+    --darkGray2: #757D85;
+    --gray: #898B9A;
+    --gray2: #BBBDC1;
+    --gray3: #CFD0D7;
+    --lightGray1: #DDDDDD;
+    --lightGray2: #F5F5F8;
+    --white2: #afafaf;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --transparent: 'transparent',
+    --transparentBlack1: "rgba(0, 0, 0, 0.1)",
+    --transparentBlack7: "rgba(0, 0, 0, 0.7)";
+}
+
+.allproducts {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.products-options {
+    display: flex;
+}
+
+.products-option{
+    margin: .050rem;
+    color: var(--gray);
+    padding: 0 .5rem;
+}
+
+.products-option:nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.products-option .active{
+    cursor: pointer;
+    color: var(--darkBlue);
+}
+
+.products-option:hover{
+    cursor: pointer;
+    color: var(--darkBlue);
+}
+
+.product-table{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 9rem;
+}
+
+.products-container{
+    background-color: var(--lightGray2);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    padding: 0 .5rem;
+    margin: 1rem 0 1.5rem 0;
+}
+.heading-title{ 
+    margin: 0;
+}
+
+.product{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 .5rem;
+    margin: 1rem 0;
+    border-bottom: 1px solid var(--gray);
+}
+
+.product-image{
+    border-radius: 50%;
+}
+
+.product:hover {
+    border-bottom: 1px solid var(--darkGray);
+}
+
+.product-data-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr 1fr 1fr;
+    color: var(--darkGray);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-items: center;
+}
+
+.product-data{
+    margin: 0;
+}
+
+.product-options{
+    margin: .5rem 0;
+    display: flex;
+}
+.product-options-icons {
+    margin: 0 1rem 0 0;
+    color: #DDDDDD;
+}
+
+.product:hover .product-options-icons {
+    margin: 0 1rem 0 0;
+    color: var(--darkGray);
+}
+
+.far.fa-edit:hover{
+    color: var(--green);
+}
+
+.fas.fa-trash:hover{
+    color: var(--red);
+}

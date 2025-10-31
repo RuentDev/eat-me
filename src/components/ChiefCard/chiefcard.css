@@ -1,0 +1,105 @@
+.chief-card{
+    width: 100%;
+    height: auto;
+}
+
+.chief-card-top{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.chief-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.overlay{
+    height: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+
+    transition: all ease-in-out 500ms;
+}
+.overlay-top{
+  top: -50%;
+}
+.overlay-bottom{
+   bottom: -50%;
+   display: flex;
+    
+}
+
+.chief-card-top-icon-container{
+    margin: 7rem 2rem 0 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chief-card-social-icon{
+    margin: 0 .2rem;
+    cursor: pointer;
+    padding: .5rem;
+    background-color: var(--darkGray);
+    transition: all ease-in-out 500ms;
+}
+.chief-card-social-icon:hover{
+    background-color: var(--white);
+   color: var(--primary-color);
+
+}
+
+
+
+
+.chief-card-bottom{
+    width: 100%;
+    height: 120px;
+    background-color: var(--lightGray1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    transition: all ease-in-out 500ms;
+}
+
+.chief-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color)
+}
+
+.chief-expertise{
+    font-size: 1.1rem;
+}
+
+
+.chief-card:hover .overlay-top{
+    height: 100%;
+}
+
+.chief-card:hover .overlay-bottom{
+    height: 100%;
+}
+
+
+.chief-card:hover .chief-card-bottom{
+  background-color: var(--primary-color);
+}
+
+
+
+.chief-card:hover .chief-name{
+    color: var(--white)
+}
+
+.chief-card:hover .chief-expertise{
+    color: var(--white)
+}

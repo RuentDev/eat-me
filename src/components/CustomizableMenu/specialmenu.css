@@ -1,0 +1,86 @@
+@media only screen and (min-width: 768px) {
+  .special-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .heading-container > .special-menu-heading {
+    font-weight: 700;
+    font-size: 1.9rem;
+  }
+
+  .header-buttons {
+    margin: 3rem 0 0 0;
+    display: flex;
+  }
+
+  .card-menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 0.2rem;
+    padding: 0;
+  }
+
+  .fancycard-menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .special-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .heading-container > .special-menu-heading {
+    font-weight: 700;
+    font-size: 1.9rem;
+  }
+
+  .header-buttons {
+    margin: 2rem 0 0 0;
+  }
+
+  .card-menu-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem 0.2rem;
+    padding: 0;
+  }
+  .fancycard-menu-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 0;
+  }
+}

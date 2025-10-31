@@ -1,0 +1,971 @@
+@media only screen and (min-width: 1200px) {
+  /* Landing Section */
+  .landing-section {
+    height: 100vh !important;
+    width: 100%;
+    padding-top: 6.2rem !important;
+  }
+
+  .landing-section-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .landings-section-main-content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .landing-section-button-container {
+    display: flex;
+  }
+
+  .landings-section-image-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Explore OUR FOOD START */
+  .products-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .products-section-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4 1fr) !important;
+  }
+
+  /* Explore OUR FOOD END */
+
+  /* BEST FOOD TRADITION */
+  .best-food-tradition .container {
+    display: flex;
+  }
+
+  .best-food-column {
+    width: 50%;
+    padding: 2rem;
+  }
+  .best-food-column:first-child {
+    height: 480px !important;
+  }
+
+  .slider-banner-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Sound Taste Section Start */
+
+  .the-sound-of-taste-section {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .the-sound-of-taste-section .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .sound-taste-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .sound-taste-chicken {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .outer-sound-taste-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inner-sound-taste-container {
+    max-width: 400px !important;
+    max-height: 400px !important;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--orange);
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .inner-sound-taste-container > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inner-sound-taste-container > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 500ms;
+    background-color: var(--primary-color-tranparent);
+    opacity: 0;
+  }
+
+  .inner-sound-taste-container:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Sound Taste Section End */
+
+  /* ========== Special Menu Section  START ==========*/
+
+  .special-menu-section {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  /*=========== Special Menu Section  END ===========*/
+
+  /* =========== Animated Counter Section START ======== */
+  .animated-counter-section {
+    width: 100%;
+    height: auto;
+  }
+  /* =========== Animated Counter Section END =========== */
+
+  /* =========== Food Image Gallery Section Start =========== */
+  .food-image-gallery-section {
+    width: 100%;
+    height: auto;
+  }
+
+  /* =========== Food Image Gallery Section End =========== */
+
+  /* =========== New Arrivals Start =========== */
+
+  .new-arrivals {
+    width: 100%;
+    height: auto;
+  }
+
+  /* =========== New Arrivals End =========== */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* BEST FOOD TRADITION */
+  .best-food-tradition .container {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .best-food-column {
+    width: 50%;
+    padding: 2rem;
+  }
+  .best-food-column:first-child {
+    height: 480px !important;
+  }
+
+  /* Download section */
+
+  .donwloadAt-section {
+    margin: 3rem 0;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .custom-shape-divider-top-1643677712 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1643677712 svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 59px;
+  }
+
+  .custom-shape-divider-top-1643677712 .shape-fill {
+    fill: var(--primary-color);
+  }
+
+  /* Landing Section */
+  .landing-section {
+    height: 100vh !important;
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .landing-section-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .landings-section-main-content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .landing-section-button-container {
+    display: flex;
+  }
+
+  .landings-section-image-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Explore OUR FOOD START */
+  .products-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .products-section-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .products-section-heading-container p {
+    width: 70% !important;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Explore OUR FOOD END */
+
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+
+  .services-container .services {
+    background-color: var(--transparentPrimray);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 400ms;
+    border: 1px solid var(--transparentPrimray);
+  }
+
+  .services-container .services:hover {
+    transform: translateY(-10px);
+    border: 1px solid var(--lightOrange) !important;
+  }
+
+  /* BEST FOOD TRADITION */
+
+  .best-food-tradition {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .best-food-tradition .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .best-food-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .best-food-column:first-child {
+    height: 600px;
+  }
+
+  .best-food-tradition-image {
+    width: 70%;
+  }
+
+  .best-food-tradition-image:nth-child(1) {
+    z-index: 1;
+  }
+
+  .best-food-tradition-image:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 100px;
+  }
+
+  .best-food-tradition-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .best-food-tradition-sub-heading {
+    font-size: 1.1rem;
+    color: var(--gray);
+    flex-wrap: wrap;
+  }
+
+  .best-food-tradition-text-list {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+  }
+
+  .best-food-tradition-text-list li {
+    display: flex;
+    margin: 1rem 0;
+  }
+
+  .best-food-tradition-text-list li p {
+    margin: 0;
+  }
+
+  .best-food-tradition-text-list li:before {
+    content: "✓";
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-self: center;
+    align-self: center;
+    color: var(--orange);
+    margin-right: 1rem;
+  }
+
+  /* PRODUCT SECTION */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  /* DOWNLOAD SECTION */
+  .donwloadAt-section {
+    margin: 3rem 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* SLIDERSLIC */
+  .slider {
+    display: flex;
+    background-color: var(--lightGray2);
+    padding: 0 2rem;
+  }
+  .slider .owl-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .slider .owl-slider .slick-list {
+    padding: 0;
+  }
+
+  .slider-banner-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Sound Taste Section Start */
+
+  .the-sound-of-taste-section {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .the-sound-of-taste-section .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .sound-taste-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .sound-taste-chicken {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .outer-sound-taste-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inner-sound-taste-container {
+    max-width: 400px !important;
+    max-height: 400px !important;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--orange);
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .inner-sound-taste-container > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inner-sound-taste-container > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 500ms;
+    background-color: var(--primary-color-tranparent);
+    opacity: 0;
+  }
+
+  .inner-sound-taste-container:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Sound Taste Section End */
+
+  /* Grid Slider Section START */
+
+  .grid-slider-section {
+    width: 100%;
+
+    height: auto;
+    padding: 0;
+  }
+
+  .inner-container-grid-slider {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    max-width: 1300px;
+  }
+
+  .grid-slider {
+    height: 400px;
+    background-color: rgb(122, 122, 219);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .grid-slider > img {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-slider > .content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+
+  /*=========== Grid Slider Section END ===========*/
+
+  /*========== Special Menu Section  START ==========*/
+  .special-menu-section {
+    height: auto;
+    width: 100%;
+  }
+  /*=========== Special Menu Section  END ===========*/
+
+  /* =========== Food Image Gallery Section Start =========== */
+  .food-image-gallery-section {
+    width: 100%;
+    height: auto;
+  }
+  /* =========== Food Image Gallery Section End =========== */
+
+  /* Sound Taste Section Start */
+
+  .the-sound-of-taste-section {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .the-sound-of-taste-section .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .sound-taste-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .sound-taste-chicken {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .outer-sound-taste-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inner-sound-taste-container {
+    max-width: 400px !important;
+    max-height: 400px !important;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--orange);
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .inner-sound-taste-container > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inner-sound-taste-container > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 500ms;
+    background-color: var(--primary-color-tranparent);
+    opacity: 0;
+  }
+
+  .inner-sound-taste-container:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Sound Taste Section End */
+
+  /* Grid Slider Section START */
+
+  .grid-slider-section {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .inner-container-grid-slider {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    margin: auto;
+  }
+
+  .grid-slider {
+    height: 300px;
+    background-color: rgb(122, 122, 219);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .grid-slider > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-slider > .content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+
+  /*=========== Grid Slider Section END ===========*/
+
+  /* =========== Food Image Gallery Section Start =========== */
+  .food-image-gallery-section {
+    width: 100%;
+    height: auto;
+  }
+  /* =========== Food Image Gallery Section End =========== */
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-shape-divider-top-1643677712 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1643677712 svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 59px;
+  }
+
+  .custom-shape-divider-top-1643677712 .shape-fill {
+    fill: var(--primary-color);
+  }
+
+  /* Landing Section */
+  .landing-section {
+    height: 80vh !important;
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .landing-section-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 1rem;
+  }
+
+  .landings-section-main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .landing-section-button-container {
+    display: flex;
+  }
+
+  .landings-section-image-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Services SECTION */
+
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .services-container .services {
+    background-color: var(--transparentPrimray);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-container .services .services-image {
+    margin: 1rem 0;
+  }
+
+  /* Explore OUR FOOD START */
+  .products-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .products-section-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+
+  .products-section-heading-container p {
+    width: 90% !important;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 1.5rem 0;
+  }
+
+  /* Traditional Food */
+  .best-food-tradition {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .best-food-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .best-food-column:first-child {
+    height: auto;
+  }
+
+  .best-food-tradition-image {
+    width: 70%;
+  }
+
+  .best-food-tradition-image:nth-child(1) {
+    /* display: ; */
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .best-food-tradition-image:nth-child(2) {
+    /* position: absolute; */
+    right: 0;
+    top: 100px;
+  }
+
+  .best-food-tradition-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .best-food-tradition-sub-heading {
+    font-size: 1.1rem;
+    color: var(--gray);
+    flex-wrap: wrap;
+  }
+
+  .best-food-tradition-text-list {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+  }
+
+  .best-food-tradition-text-list li {
+    display: flex;
+    margin: 1rem 0;
+  }
+
+  .best-food-tradition-text-list li p {
+    margin: 0;
+  }
+
+  .best-food-tradition-text-list li:before {
+    content: "✓";
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-self: center;
+    align-self: center;
+    color: var(--orange);
+    margin-right: 1rem;
+  }
+
+  /* DOWNLOAD OUR APP AT */
+  .downloadAt-store {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .donwloadAt-images-container {
+    margin: 1rem 0;
+  }
+
+  .donwloadAt-images-container img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+  }
+
+  /* SLIDERSLICK */
+  .slider {
+    display: flex;
+    background-color: var(--darkGray);
+    padding: 0 2rem;
+  }
+
+  .slider .owl-slider {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Sound Taste */
+
+  .the-sound-of-taste-section {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .the-sound-of-taste-section .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sound-taste-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .sound-taste-heading-image {
+    width: 100px !important;
+    height: 50px;
+  }
+
+  .sound-taste-chicken {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .outer-sound-taste-container {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .inner-sound-taste-container {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--orange);
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .inner-sound-taste-container > img {
+    width: 100%;
+    height: 100%;
+  }
+  .inner-sound-taste-container > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 500ms;
+    background-color: var(--primary-color-tranparent);
+    opacity: 0;
+  }
+  .inner-sound-taste-container:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Grid Slider Section START */
+  .grid-slider-section {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .inner-container-grid-slider {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-slider {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(122, 122, 219);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .grid-slider > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-slider > img:nth-child(1),
+  img:last-child {
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+  }
+
+  .grid-slider > .content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  /*=========== Grid Slider Section END ===========*/
+
+  /* =========== Food Image Gallery Section Start =========== */
+  .food-image-gallery-section {
+    width: 100%;
+    height: auto;
+  }
+  /* =========== Food Image Gallery Section End =========== */
+}

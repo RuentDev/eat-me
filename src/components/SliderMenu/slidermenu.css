@@ -1,0 +1,12 @@
+.slick-list {
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .specialMenu {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

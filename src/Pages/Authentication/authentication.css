@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #ff6c44;
+    --transparentPrimray: rgba(227, 120, 75, 0.1);
+    --orange: #FFA133;
+    --lightOrange: #FFA133;
+    --lightOrange2: #FDDED4;
+    --lightOrange3: #FFD9AD;
+    --green: #27AE60;
+    --red: #FF1717;
+    --blue: #0064C0;
+    --darkBlue: #111A2C;
+    --darkGray: #525C67;
+    --darkGray2: #757D85;
+    --gray: #898B9A;
+    --gray2: #BBBDC1;
+    --gray3: #CFD0D7;
+    --lightGray1: #DDDDDD;
+    --lightGray2: #F5F5F8;
+    --white2: #FBFBFB;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --transparent: 'transparent',
+    --transparentBlack1: "rgba(0, 0, 0, 0.1)",
+    --transparentBlack7: "rgba(0, 0, 0, 0.7)";
+}
+
+
+/* .signin-section, .signup-section{
+  width: 100%;
+  height: auto;
+  padding: 8rem 0;
+  background: linear-gradient(
+    140deg,
+    rgba(216, 74, 38, 1) 0%,
+    rgba(222, 99, 68, 1) 0%,
+    rgba(235, 154, 134, 1) 6%,
+    rgba(242, 182, 167, 1) 15%,
+    rgba(240, 220, 215, 1) 73%,
+    rgba(237, 193, 182, 1) 89%,
+    rgba(235, 175, 160, 1) 96%,
+    rgba(229, 128, 103, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+} */
+
+
+
+
+@media only screen and (min-width: 900px) {
+    .signin-section, .signup-section {
+        width: 100%;
+        height: auto;
+        padding: 6rem 0;
+    }
+    .signin-section, .signin-section .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-form, .signup-form {
+        margin: auto;
+        width: 45% !important;
+        height: auto;
+        background-color: var(--white);
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        display: grid !important;
+        grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .signin-section, .signin-section {
+        width: 100%;
+        height: auto;
+        padding: 7rem 0;
+    }
+    .signin-section, .signin-section .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-form, .signup-form {
+        margin: auto;   
+        width: 60%;
+        height: auto;
+        background-color: var(--white);
+        padding: 0 2rem;
+        border-radius: 10px;
+        display: grid !important;
+        grid-template-columns: 1fr;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .signin-section, .signin-section {
+        width: 100%;
+        height: auto;
+        padding: 3rem 0;
+    }
+    .signin-section, .signin-section .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-form, .signup-form {
+        width: 100%;
+        height: auto;
+        background-color: var(--white);
+        padding: 3rem 2rem;
+        border-radius: 10px;
+        display: grid !important;
+        grid-template-columns: 1fr;
+  }
+}
+
